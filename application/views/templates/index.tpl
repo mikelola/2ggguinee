@@ -14,6 +14,7 @@
         <link rel = "stylesheet" type = "text/css" href ="{$css_url}bootstrap-theme.css">
         <link rel = "stylesheet" type = "text/css" href ="{$css_url}bootstrap-theme.min.css">
         <script src="{$js_url}modernizr.custom.min.js"></script>
+        <script src="{$js_url}tabs.js"></script>
     </head>
     <body>
         {*en-tête*}
@@ -64,6 +65,7 @@
 {/if}
 {literal}
     <script src="{$js_url}jquery-2.1.6.min.js"></script>
+    <script src="{$js_url}tabs.js"></script>
 {/literal}
 </body>
 </html>

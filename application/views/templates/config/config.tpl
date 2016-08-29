@@ -3,55 +3,113 @@
         <input name="tabbed" id="tabbed1" type="radio" checked>
         <section>
             <h1>
-                <label for="tabbed1">Tab 1</label>
+                <label for="tabbed1">Modalités</label>
             </h1>
+
             <div>
-                All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
-            </div>
-        </section>
-        <input name="tabbed" id="tabbed2" type="radio">
-        <section>
-            <h1>
-                <label for="tabbed2">Tab 2</label>
-            </h1>
-            <div>
-                Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status. Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty.
+               
+                {include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}
             </div>
         </section>
         <input name="tabbed" id="tabbed3" type="radio">
         <section>
             <h1>
-                <label for="tabbed3">Tab 3</label>
+                <label for="tabbed3">Localités</label>
             </h1>
             <div>
-                Everyone has the right to life, liberty and security of person.
+                {*{include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}*}
             </div>
         </section>
         <input name="tabbed" id="tabbed4" type="radio">
         <section>
             <h1>
-                <label for="tabbed4">Tab 4</label>
+                <label for="tabbed4">coéficiants</label>
             </h1>
             <div>
-                No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.
+                {*{include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}*}
             </div>
         </section>
         <input name="tabbed" id="tabbed5" type="radio">
         <section>
             <h1>
-                <label for="tabbed5">tab 5</label>
+                <label for="tabbed5">Matières</label>
             </h1>
             <div>
-                No one shall be subjected to torture or to cruel, inhuman or degrading treatment or punishment.
+                 {*{include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}*}
             </div>
         </section>
         <input name="tabbed" id="tabbed6" type="radio">
         <section>
             <h1>
-                <label for="tabbed6">tab 6</label>
+                <label for="tabbed6">Type d'évaluation</label>
             </h1>
             <div>
-                Everyone has the right to recognition everywhere as a person before the law.
+                 {*{include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}*}
+            </div>
+        </section>
+            <input name="tabbed" id="tabbed7" type="radio">
+        <section>
+            <h1>
+                <label for="tabbed7">Type d'évaluation</label>
+            </h1>
+            <div>
+                {*{include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}*}
+            </div>
+        </section>
+            <input name="tabbed" id="tabbed8" type="radio">
+        <section>
+            <h1>
+                <label for="tabbed8">Type de Frais</label>
+            </h1>
+            <div>
+                {include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}
+            </div>
+        </section>
+            <input name="tabbed" id="tabbed9" type="radio">
+        <section>
+            <h1>
+                <label for="tabbed9">Sexes</label>
+            </h1>
+            <div>
+                {*{include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}*}
+            </div>
+        </section>
+            <input name="tabbed" id="tabbed10" type="radio">
+        <section>
+            <h1>
+                <label for="tabbed10">Classes</label>
+            </h1>
+            <div>
+                {include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"} 
+            </div>
+        </section>
+        <input name="tabbed" id="tabbed11" type="radio">
+        <section>
+            <h1>
+                <label for="tabbed11">Permissions</label>
+            </h1>
+            <div>
+                {*{include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}*}
+            </div>
+        </section>
+        <input name="tabbed" id="tabbed12" type="radio">
+        <section>
+            <h1>
+                <label for="tabbed12">Sessions</label>
+            </h1>
+            <div>
+                {include file="basedata/modality/blockpayement.tpl"}
+                {include file="basedata/modality/steppayement.tpl"}
             </div>
         </section>
     </div>
